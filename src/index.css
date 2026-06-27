@@ -1,0 +1,75 @@
+@import "tailwindcss";
+html {
+  scrollbar-gutter: stable;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-RegularItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TT Norms Pro";
+  src: url("./assets/fonts/TT\ Norms\ Pro\ Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+}
+@theme {
+  --font-sans: "Gilroy", sans-serif;
+  --font-gilroy: "Gilroy", sans-serif;
+  --font-norms: "TT Norms Pro", sans-serif;
+  /* colors */
+  /* Brand */
+  --color-primary: #4e2fd2;
+  --color-primary-glance: #edf4ff;
+  /* The Neutral */
+  --color-neutral-50: #f1f1f2;
+  --color-neutral-100: #f0f4f7;
+  --color-neutral-150: #e6ebf0;
+  --color-neutral-200: #ced6de;
+  --color-neutral-300: #cccccc;
+  --color-neutral-400: #a8b2bd;
+  --color-neutral-500: #6f7882;
+  --color-neutral-600: #575757;
+  --color-neutral-700: #484848;
+  --color-neutral-900: #1f1f1f;
+  --color-neutral-950: #0b0d10;
+  /* Status & Accents */
+  --color-danger: #d8392b;
+  --color-teal: #0aa288;
+  --color-mint: #1df0bb;
+}
